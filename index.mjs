@@ -7,7 +7,7 @@ esbuild
     bundle: true,
     minify: true,
     sourcemap: true,
-    outfile: 'dist/index.js',
+    outfile: 'dist/output.js',
     plugins: [
       babel({
         presets: [['@babel/preset-env', { useBuiltIns: 'usage', corejs: 3 }]],

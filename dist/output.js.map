@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/input.js"],
+  "sourcesContent": ["const randomString = Math.random() > 0.5 ? 'abc' : 'def';\n\nconst fn = () => console.log(`foo ${randomString}`);\n\nfn();"],
+  "mappings": "MAAA,GAAM,GAAe,KAAK,SAAW,GAAM,MAAQ,MAE7C,EAAK,IAAM,QAAQ,IAAI,OAAO,KAEpC",
+  "names": []
+}
