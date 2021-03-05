@@ -10,12 +10,12 @@ esbuild
     outfile: 'dist/output.js',
     plugins: [
       babel({
-        presets: [['@babel/preset-env', { useBuiltIns: 'usage', corejs: 3 }]],
-        targets: { ie: '11', chrome: '39' },
-        compact: true,
-        inputSourceMap: true,
-        sourceMap: true,
-        sourceType: 'unambiguous'
+        filter: /.*/,
+        namespace: '',    
+        config: {
+          presets: [['@babel/preset-env', { useBuiltIns: 'usage', corejs: 3 }]],
+          targets: { ie: '11' },
+        }
       })
     ]
   })

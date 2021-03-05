@@ -12,6 +12,7 @@
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
+    "core-js": "^3.9.1",
     "esbuild": "^0.8.56",
     "esbuild-plugin-babel": "^0.2.3"
   }
